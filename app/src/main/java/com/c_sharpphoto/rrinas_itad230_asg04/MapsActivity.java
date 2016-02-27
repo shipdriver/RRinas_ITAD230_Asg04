@@ -203,50 +203,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         return datax.toString() ;
     }
 
-        /*try
-        {
-            InputStream instream = openFileInput("keyLog.txt");
-            if (instream != null)
-            {
-                InputStreamReader inputreader = new InputStreamReader(instream);
-                BufferedReader buffreader = new BufferedReader(inputreader);
-                String line = "",line1 = "";
-                try
-                {
-                    while ((line = buffreader.readLine()) != null)
-                        line1+=line;
-                }catch (Exception e)
-                {
-                    e.printStackTrace();
-                }
-                TextView keyFileText = (TextView) findViewById(R.id.readKeyFile);
-                keyFileText.setText(line);
-            }
-
-        }
-        catch (FileNotFoundException e)
-        {
-            e.printStackTrace();
-            Log.e(TAG, "******* File Not Found!");
-        }
-*/
-        /*String filename = "keyLog.txt";
-        String entry = dat+" "+KeyGenerator();
-
-        FileOutputStream fos = null;
-        try {
-            fos = openFileOutput(filename, Context.MODE_PRIVATE);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            Log.e(TAG, "******* File not found.");
-        }
-        try {
-            fos.write(entry.getBytes());
-            fos.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-            Log.e(TAG, "******* IOException");
-        }*/
+        
 
 
 }
